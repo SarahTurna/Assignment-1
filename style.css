@@ -1,0 +1,46 @@
+.week {
+  display: flex;
+}
+
+.leftSide {
+  width: 7.5vw;
+}
+
+p {
+  font-size: 110%;
+}
+.weekday {
+  height: fit-content;
+  border-radius: 10%;
+  padding: 2%;
+  background-color: #f3f5f7;
+  display: inline-block;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: fit-content;
+}
+
+.slides {
+  border-radius: 10%;
+  padding: 0.3%;
+  background-color: #c1b6f9;
+}
+.starterCode {
+  border-radius: 10%;
+  padding: 0.3%;
+  background-color: #9dc4f8;
+}
+.checkoffForm {
+  border-radius: 10%;
+  padding: 0.3%;
+  background-color: #f0aaa7;
+}
+.solution {
+  border-radius: 10%;
+  padding: 0.3%;
+  background-color: #a0ecb1;
+}
